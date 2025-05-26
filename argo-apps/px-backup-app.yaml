@@ -6,7 +6,7 @@
     spec:
       project: default
       source:
-        repoURL: https://github.com/your-org/gitops-root.git #Update your github repo
+        repoURL: https://github.com/sanjaynaikwadi/gitops-root.git #Update your github repo
         targetRevision: main
         path: PX-Backup/PXB
         helm:
