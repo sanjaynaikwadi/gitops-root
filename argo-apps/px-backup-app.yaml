@@ -1,0 +1,23 @@
+    apiVersion: argoproj.io/v1alpha1
+    kind: Application
+    metadata:
+      name: px-backup
+      namespace: argocd
+    spec:
+      project: default
+      source:
+        repoURL: https://github.com/your-org/gitops-root.git #Update your github repo
+        targetRevision: main
+        path: PX-Backup/PXB
+        helm:
+          valueFiles:
+            - values.yaml
+      destination:
+        server: https://kubernetes.default.svc #Update your cluster information 
+        namespace: px-backup
+      syncPolicy:
+        automated:
+          prune: true
+          selfHeal: true
+        syncOptions:
+          - CreateNamespace=true
