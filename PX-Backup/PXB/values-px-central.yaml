@@ -101,7 +101,7 @@
       alertmanager: 
         advertiseAddress: ""
   service: 
-    pxCentralUIServiceType: "LoadBalancer"
+    pxCentralUIServiceType: "NodePort"
     pxCentralUIServiceAnnotations: {}
     pxBackupUIServiceType: "NodePort"
     pxBackupUIServiceAnnotations: {}
