@@ -22,6 +22,6 @@ gitops-root/
     └── px-backup-app.yaml
 ```
 ## PXB Install 
-```link 
+
 [https://github.com/sanjaynaikwadi/gitops-root/tree/main/PX-Backup/PXB]
-```
+
