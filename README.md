@@ -23,5 +23,5 @@ gitops-root/
 ```
 ## PXB Install 
 
-[https://github.com/sanjaynaikwadi/gitops-root/tree/main/PX-Backup/PXB]
+https://github.com/sanjaynaikwadi/gitops-root/tree/main/PX-Backup/PXB
 
