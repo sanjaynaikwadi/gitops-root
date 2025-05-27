@@ -21,7 +21,9 @@ gitops-root/
     ├── portworx-app.yaml
     └── px-backup-app.yaml
 ```
-## PXB Install 
+## PX-Backup Install 
+
+Follow the below link how to use ArgoCD to install PX Backup
 
 https://github.com/sanjaynaikwadi/gitops-root/tree/main/PX-Backup/PXB
 
