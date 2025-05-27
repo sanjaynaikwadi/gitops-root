@@ -24,7 +24,9 @@ gitops-root/
 │       └── helm-release.yaml   # Optional
 ├── PX-Backup/
 │   └── PXB/                    # PX-Backup install
-│       └── values.yaml
+│       ├── Charts.yaml
+│       ├── templates
+│       └── values-px-central.yaml
 ├── Apps/                       # Your actual applications (e.g., nginx)
 │   ├── nginx/
 │   │   ├── deployment.yaml
