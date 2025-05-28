@@ -46,7 +46,7 @@ spec:
       name: html
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: px-csi-db  
+      storageClassName: px-csi-db # <------ Make Sure to Point the correct storageclass 
       resources:
         requests:
           storage: 1Gi
